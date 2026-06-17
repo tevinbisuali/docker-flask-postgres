@@ -16,7 +16,7 @@ def home():
 
         conn.close()
 
-        return "Flask successfully connected to PostgreSQL!"
+        return "return "Version 2 - CI/CD Test""
 
     except Exception as e:
         return f"Database connection failed: {e}"
