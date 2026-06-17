@@ -16,7 +16,7 @@ def home():
 
         conn.close()
 
-        return "return "Version 2 - CI/CD Test""
+        return "Version 2 - CI/CD Test"
 
     except Exception as e:
         return f"Database connection failed: {e}"
